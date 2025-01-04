@@ -9,7 +9,4 @@ inputs:
     required: true
 runs:
   using: docker
-  image: docker://python:3.9-slim
-  entrypoint: python3
-  args:
-    - ./inject_ga4.py
+  image: dockerfile

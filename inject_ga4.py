@@ -4,6 +4,8 @@ import sys
 tracking_id = os.getenv('INPUT_TRACKING_ID')
 file = os.getenv('INPUT_FILE')
 
+print(f"Injecting GA4 code for {tracking_id} into {file}")
+
 if not tracking_id:
     print('GA4 Tracking ID not provided. Exiting script.')
     sys.exit(1)
