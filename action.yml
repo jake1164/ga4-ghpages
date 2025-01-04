@@ -1,0 +1,15 @@
+name: 'Inject GA4 Tracking Code'
+description: 'A GitHub Action to inject GA4 tracking code into HTML files using Python'
+inputs:
+  tracking_id:
+    description: 'GA4 Tracking ID'
+    required: true
+  file:
+    description: 'Path to the file for injecting tracking code'
+    required: true
+runs:
+  using: 'docker'
+  image: 'python:3.9-slim'
+  entrypoint: 'python3'
+  args:
+    - 'inject_ga4.py'
