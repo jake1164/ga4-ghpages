@@ -2,7 +2,7 @@ name: Inject GA4 Tracking Code
 author: Jake1164
 description: A GitHub Action to inject GA4 tracking code into a static Github Pages site.
 branding: 
-  icon: 'images/analytics-icon.jpg'
+  icon: "bar-chart" 
   color: "orange"
 inputs:
   tracking_id:
