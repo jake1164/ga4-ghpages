@@ -32,7 +32,7 @@ jobs:
     ### In this example its release/wwwroot
 
     - name: Inject GA4 tracking code
-      uses: jake1164@ga4-ghpages@v1
+      uses: jake1164/ga4-ghpages@v1
       with:
         tracking_id: ${{ secrets.GA4_TRACKING_ID }} # example: G-11XXXXXXXX
         file: release/wwwroot/index.html # your publish_dir to your html code before being published.
