@@ -1,12 +1,10 @@
 <div align="center"> 
     <h2 >ga4-ghpages Action</h2>
-    <img alt="GA4 Logo" src="./images/GA4-logo.png" />
+    <img alt="GA4 Logo" src="./images/analytics-logo.png" />
+    <h4>Inject your Google Analytics tracking tag into github pages </h4>
 </div>
 
 <hr />
-
-# ga4-ghpages Action - Inject your Google Analytics into github pages 
-
 
 This is a GitHub action for injecting [google analytics 4 tracking](https://support.google.com/analytics/answer/9304153) into a GitHub Pages static site during deployment.
 
